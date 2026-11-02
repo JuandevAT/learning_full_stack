@@ -1,0 +1,25 @@
+{
+  "name": "devpath-academy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "DevPath Academy: Competency-based learning platform built as part of the path to Junior Full Stack",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Stage 0 diagnostic tests run via external Exercism track. Project test suite will be introduced in Stage 1.\" && exit 0"
+  },
+  "keywords": [
+    "education",
+    "competency-based-learning",
+    "fullstack"
+  ],
+  "author": "JuandevAT",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JuandevAT/learning_full_stack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JuandevAT/learning_full_stack/issues"
+  },
+  "homepage": "https://github.com/JuandevAT/learning_full_stack#readme"
+}
