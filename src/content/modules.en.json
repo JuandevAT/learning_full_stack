@@ -1,0 +1,37 @@
+[
+  {
+    "id": "mod_phase0_setup",
+    "phase": 0,
+    "title": "Phase 0: Environment & Calibration",
+    "description": "System setup, Linux rolling-release environment, Git version control, and baseline diagnostic.",
+    "order": 1
+  },
+  {
+    "id": "mod_phase0_logic",
+    "phase": 0,
+    "title": "Phase 0: Algorithmic Logic Foundations",
+    "description": "Computational thinking, problem decomposition, and pattern recognition prior to code.",
+    "order": 2
+  },
+  {
+    "id": "mod_phase1_ui",
+    "phase": 1,
+    "title": "Phase 1: React 19 & Modern UI",
+    "description": "Functional components, state management, declarative rendering, and Tailwind CSS layouts.",
+    "order": 3
+  },
+  {
+    "id": "mod_phase1_types",
+    "phase": 1,
+    "title": "Phase 1: TypeScript Domain Modeling",
+    "description": "Strict type systems, interface design, discriminated unions, and safe runtime boundaries.",
+    "order": 4
+  },
+  {
+    "id": "mod_phase1_i18n",
+    "phase": 1,
+    "title": "Phase 1: Multi-language Architecture",
+    "description": "Decoupled bilingual dictionary architecture with English default and complete Spanish parity.",
+    "order": 5
+  }
+]

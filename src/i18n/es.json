@@ -1,0 +1,75 @@
+{
+  "brand": {
+    "title": "DevPath Academy",
+    "subtitle": "Plataforma Junior Full Stack"
+  },
+  "nav": {
+    "dashboard": "Panel Principal",
+    "roadmap": "Ruta de Aprendizaje",
+    "studySession": "Sesión de 60 Min",
+    "status": "Estado del Sistema"
+  },
+  "dashboard": {
+    "welcome": "Bienvenido, Desarrollador",
+    "heroSubtitle": "Construyendo la plataforma mientras dominas el desarrollo Full Stack — Paso a paso.",
+    "streak": "Racha de Estudio",
+    "days": "días",
+    "progressSummary": "Resumen de Dominio",
+    "totalCompetencies": "Competencias Totales",
+    "notStarted": "No Iniciada",
+    "inPractice": "En Práctica",
+    "demonstrated": "Demostrada",
+    "mastered": "Dominada",
+    "quickStart": "Acciones Rápidas",
+    "startSession": "Iniciar Sesión de 60 Min",
+    "exploreRoadmap": "Explorar Ruta",
+    "currentPhase": "Fase Actual",
+    "phaseTitle": "Fase 1: Esqueleto Funcional"
+  },
+  "roadmap": {
+    "title": "Currículo y Ruta de Aprendizaje DevPath",
+    "subtitle": "Ruta progresiva basada en competencias hacia Junior Full Stack.",
+    "allPhases": "Todas las Fases",
+    "filterByState": "Filtrar por estado",
+    "prerequisites": "Prerrequisitos",
+    "none": "Ninguno",
+    "skills": "Habilidades Clave",
+    "viewDetails": "Ver Detalles"
+  },
+  "timer": {
+    "title": "Protocolo Diario de Estudio (60 Minutos)",
+    "subtitle": "Práctica deliberada estructurada en fases con guardado automático de bitácora.",
+    "start": "Iniciar Sesión",
+    "pause": "Pausar",
+    "reset": "Reiniciar",
+    "currentStep": "Fase Actual",
+    "phases": {
+      "recall": "1. Repaso Activo (10 min)",
+      "theory": "2. Lectura Técnica (15 min)",
+      "practice": "3. Práctica de Código (25 min)",
+      "log": "4. Verificación y Bitácora (10 min)"
+    },
+    "phaseDescriptions": {
+      "recall": "Responde 1–2 preguntas de recuperación sin ayuda externa.",
+      "theory": "Lectura de documentación técnica oficial en inglés.",
+      "practice": "Implementa la lógica o ejercicio por ti mismo con pistas progresivas.",
+      "log": "Ejecuta pruebas, explica con tus palabras y registra el commit."
+    },
+    "notesPlaceholder": "Escribe aquí tus notas de sesión, dudas y resumen de evidencias...",
+    "saveNotes": "Guardar Notas de Sesión",
+    "notesSaved": "¡Notas guardadas en LocalStorage!",
+    "recentNotes": "Bitácoras de Sesiones Recientes"
+  },
+  "status": {
+    "badge": "Fase 1 Activa",
+    "zeroBudget": "Presupuesto: USD 0",
+    "language": "Idioma",
+    "english": "English",
+    "spanish": "Español"
+  },
+  "theme": {
+    "toggle": "Cambiar tema",
+    "dark": "Modo oscuro",
+    "light": "Modo claro"
+  }
+}

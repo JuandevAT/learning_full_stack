@@ -1,13 +1,13 @@
 ---
 name: revision-semanal
-description: Realiza la revisión semanal del sábado: repasos, control anti-copia, balance y ajuste del plan.
+description: Reviews DevPath progress, learning evidence, and the next increment.
 ---
 
-# Revisión semanal
-1. Listar lo completado según los commits y las pruebas de la semana.
-2. Hacer el control anti-copia: el usuario reimplementa sin ayuda una función de la semana.
-3. Revisar los repasos espaciados pendientes y su resultado.
-4. Actualizar el estado de las competencias según las puertas de dominio.
-5. Detectar conceptos débiles y proponer repaso la semana siguiente.
-6. Comprobar el criterio de salida de la etapa; si no se cumple, proponer semanas de repaso.
-7. Actualizar `docs/ESTADO.md`.
+1. Review commits and verified features from the week.
+2. Check tests and unresolved defects.
+3. Review evidence for the competencies practiced.
+4. Run one small anti-copy exercise for a fundamental competency.
+5. Review spaced-repetition items and priorities.
+6. Check the current phase exit criteria.
+7. Adjust scope if the plan exceeded available time.
+8. Update docs/ESTADO.md and propose the next increment.

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "comp_git_basics",
+    "moduleId": "mod_phase0_setup",
+    "phase": 0,
+    "name": "Git & Terminal Fundamentals",
+    "description": "Initialize repositories, stage changes, commit with semantic messages, inspect logs, and manage branches on Linux.",
+    "prerequisites": [],
+    "status": "demonstrated",
+    "skills": ["git init", "git status", "git add", "git commit", "branching"]
+  },
+  {
+    "id": "comp_algo_decomp",
+    "moduleId": "mod_phase0_logic",
+    "phase": 0,
+    "name": "Computational Thinking & Algorithm Decomposition",
+    "description": "Break down complex problems into step-by-step logic, input normalization, frequency maps, and edge-case handling before coding.",
+    "prerequisites": [],
+    "status": "in_practice",
+    "skills": ["problem decomposition", "pseudocode", "edge cases", "frequency tables"]
+  },
+  {
+    "id": "comp_react_components",
+    "moduleId": "mod_phase1_ui",
+    "phase": 1,
+    "name": "React 19 Functional Components & State",
+    "description": "Create modular, reusable UI components using functional React, props typing, and local useState hooks.",
+    "prerequisites": ["comp_git_basics"],
+    "status": "in_practice",
+    "skills": ["JSX", "useState", "typed props", "component trees"]
+  },
+  {
+    "id": "comp_ts_types",
+    "moduleId": "mod_phase1_types",
+    "phase": 1,
+    "name": "TypeScript Strict Interfaces & Narrowing",
+    "description": "Model domain data structures using interfaces and type unions without resorting to any, using type narrowing.",
+    "prerequisites": ["comp_algo_decomp"],
+    "status": "in_practice",
+    "skills": ["interface", "type aliases", "unions", "strict mode"]
+  },
+  {
+    "id": "comp_i18n_patterns",
+    "moduleId": "mod_phase1_i18n",
+    "phase": 1,
+    "name": "Decoupled Internationalization (i18n)",
+    "description": "Implement multilingual user interfaces with stable keys, fallback chains, and reactive locale switching.",
+    "prerequisites": ["comp_react_components"],
+    "status": "in_practice",
+    "skills": ["i18n context", "key-value dictionaries", "locale switching"]
+  },
+  {
+    "id": "comp_tailwind_layout",
+    "moduleId": "mod_phase1_ui",
+    "phase": 1,
+    "name": "Modern Responsive Layouts with Tailwind",
+    "description": "Build mobile-friendly, accessible, and high-contrast user interfaces with utility classes and flex/grid systems.",
+    "prerequisites": [],
+    "status": "in_practice",
+    "skills": ["flexbox", "grid", "responsive breakpoints", "accessible contrast"]
+  }
+]

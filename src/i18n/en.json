@@ -1,0 +1,75 @@
+{
+  "brand": {
+    "title": "DevPath Academy",
+    "subtitle": "Junior Full Stack Platform"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "roadmap": "Roadmap",
+    "studySession": "60-Min Session",
+    "status": "System Status"
+  },
+  "dashboard": {
+    "welcome": "Welcome back, Developer",
+    "heroSubtitle": "Building the platform while mastering Full Stack development — Step by Step.",
+    "streak": "Study Streak",
+    "days": "days",
+    "progressSummary": "Mastery Overview",
+    "totalCompetencies": "Total Competencies",
+    "notStarted": "Not Started",
+    "inPractice": "In Practice",
+    "demonstrated": "Demonstrated",
+    "mastered": "Mastered",
+    "quickStart": "Quick Actions",
+    "startSession": "Start 60-Min Session",
+    "exploreRoadmap": "Explore Roadmap",
+    "currentPhase": "Current Phase",
+    "phaseTitle": "Phase 1: Functional Skeleton"
+  },
+  "roadmap": {
+    "title": "DevPath Curriculum & Roadmap",
+    "subtitle": "Progressive, competency-based roadmap toward Junior Full Stack.",
+    "allPhases": "All Phases",
+    "filterByState": "Filter by status",
+    "prerequisites": "Prerequisites",
+    "none": "None",
+    "skills": "Key Skills",
+    "viewDetails": "View Details"
+  },
+  "timer": {
+    "title": "Daily Study Protocol (60 Minutes)",
+    "subtitle": "Deliberate practice protocol with Pomodoro phases and automatic note saving.",
+    "start": "Start Session",
+    "pause": "Pause",
+    "reset": "Reset",
+    "currentStep": "Current Phase",
+    "phases": {
+      "recall": "1. Active Recall (10 min)",
+      "theory": "2. Technical Reading (15 min)",
+      "practice": "3. Deliberate Coding (25 min)",
+      "log": "4. Verify & Log (10 min)"
+    },
+    "phaseDescriptions": {
+      "recall": "Answer 1–2 retrieval questions without external assistance.",
+      "theory": "Read official technical documentation in English.",
+      "practice": "Implement the logic or exercise yourself with progressive hints.",
+      "log": "Run tests, write explanations in your own words, and commit."
+    },
+    "notesPlaceholder": "Type your session notes, questions, and evidence summary here...",
+    "saveNotes": "Save Session Notes",
+    "notesSaved": "Notes saved to LocalStorage!",
+    "recentNotes": "Recent Session Logs"
+  },
+  "status": {
+    "badge": "Phase 1 Active",
+    "zeroBudget": "Budget: $0 USD",
+    "language": "Language",
+    "english": "English",
+    "spanish": "Español"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "dark": "Dark mode",
+    "light": "Light mode"
+  }
+}

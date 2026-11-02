@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    transition: background-color 0.25s ease, color 0.25s ease;
+  }
+}
+
+/* ─── DevPath Developer Utilities & Aesthetic ─────────────────── */
+
+@keyframes dp-blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+@keyframes dp-glow {
+  0%, 100% { opacity: 0.55; }
+  50% { opacity: 1; }
+}
+
+@keyframes dp-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+.dp-caret::after {
+  content: "▊";
+  margin-left: 2px;
+  color: #3fb950;
+  animation: dp-blink 1s step-end infinite;
+}
+
+.dp-float {
+  animation: dp-float 5s ease-in-out infinite;
+}
+
+.dp-grid-bg {
+  background-image: linear-gradient(rgba(48, 54, 61, 0.25) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(48, 54, 61, 0.25) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+
+.dp-hero-glow {
+  background: radial-gradient(
+    ellipse 65% 55% at 50% 0%,
+    rgba(16, 185, 129, 0.12),
+    transparent 70%
+  );
+}
+
+.dp-text-glow {
+  text-shadow: 0 0 24px rgba(16, 185, 129, 0.45);
+}
+
+.dp-card-hover {
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.25s ease, box-shadow 0.25s ease;
+}
+.dp-card-hover:hover {
+  transform: translateY(-3px);
+  border-color: rgba(16, 185, 129, 0.45);
+  box-shadow: 0 12px 30px -10px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(16, 185, 129, 0.15);
+}
+
+.dp-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #30363d transparent;
+}
+.dp-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.dp-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.dp-scrollbar::-webkit-scrollbar-thumb {
+  background: #30363d;
+  border-radius: 6px;
+}
+.dp-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #3fb950;
+}

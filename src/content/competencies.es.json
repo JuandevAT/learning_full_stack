@@ -1,0 +1,62 @@
+[
+  {
+    "id": "comp_git_basics",
+    "moduleId": "mod_phase0_setup",
+    "phase": 0,
+    "name": "Fundamentos de Git y Terminal",
+    "description": "Inicializar repositorios, preparar cambios en staging, registrar commits semánticos, inspeccionar logs y gestionar ramas en Linux.",
+    "prerequisites": [],
+    "status": "demonstrated",
+    "skills": ["git init", "git status", "git add", "git commit", "gestión de ramas"]
+  },
+  {
+    "id": "comp_algo_decomp",
+    "moduleId": "mod_phase0_logic",
+    "phase": 0,
+    "name": "Pensamiento Computacional y Descomposición Algorítmica",
+    "description": "Descomponer problemas complejos en pasos lógicos, normalización de entradas, tablas de frecuencia y casos límite antes de programar.",
+    "prerequisites": [],
+    "status": "in_practice",
+    "skills": ["descomposición de problemas", "pseudocódigo", "casos de borde", "tablas de frecuencia"]
+  },
+  {
+    "id": "comp_react_components",
+    "moduleId": "mod_phase1_ui",
+    "phase": 1,
+    "name": "Componentes Funcionales y Estado en React 19",
+    "description": "Crear componentes de interfaz modulares y reutilizables usando React funcional, tipado de props y hooks de useState.",
+    "prerequisites": ["comp_git_basics"],
+    "status": "in_practice",
+    "skills": ["JSX", "useState", "props tipadas", "árbol de componentes"]
+  },
+  {
+    "id": "comp_ts_types",
+    "moduleId": "mod_phase1_types",
+    "phase": 1,
+    "name": "Interfaces Estrictas y Estrechamiento en TypeScript",
+    "description": "Modelar estructuras de datos de dominio utilizando interfaces y uniones de tipos sin recurrir a any, aplicando type narrowing.",
+    "prerequisites": ["comp_algo_decomp"],
+    "status": "in_practice",
+    "skills": ["interface", "type aliases", "uniones", "modo estricto"]
+  },
+  {
+    "id": "comp_i18n_patterns",
+    "moduleId": "mod_phase1_i18n",
+    "phase": 1,
+    "name": "Internacionalización Desacoplada (i18n)",
+    "description": "Implementar interfaces de usuario multilingües con claves estables, cadenas de fallback y cambio reactivo de locale.",
+    "prerequisites": ["comp_react_components"],
+    "status": "in_practice",
+    "skills": ["contexto i18n", "diccionarios clave-valor", "cambio de idioma"]
+  },
+  {
+    "id": "comp_tailwind_layout",
+    "moduleId": "mod_phase1_ui",
+    "phase": 1,
+    "name": "Diseño Responsive Moderno con Tailwind",
+    "description": "Construir interfaces adaptables a móviles, accesibles y con contraste adecuado mediante clases utilitarias y sistemas flex/grid.",
+    "prerequisites": [],
+    "status": "in_practice",
+    "skills": ["flexbox", "grid", "puntos de ruptura responsive", "contraste accesible"]
+  }
+]

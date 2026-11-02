@@ -1,16 +1,17 @@
 ---
 name: sesion-diaria
-description: Conduce una sesión de 60 minutos de DevPath Academy: revisa el estado real, plantea repaso activo y guía un micro-entregable según la etapa.
+description: Conducts an integrated DevPath build-and-learn session.
 ---
 
-# Sesión diaria
-1. Leer `docs/ESTADO.md`; revisar `git status` y los últimos commits.
-2. Proponer UN micro-entregable que quepa en 60 minutos.
-3. Plantear 1–2 preguntas de repaso; esperar la respuesta del usuario sin ayudar.
-4. Explicar el concepto nuevo con un ejemplo breve.
-5. El usuario implementa; ayudar solo con pistas progresivas (según la autonomía de la etapa).
-6. Ejecutar las pruebas pertinentes y explicar cualquier fallo.
-7. Pedir al usuario que explique lo hecho en sus palabras.
-8. Actualizar `docs/ESTADO.md` y proponer el mensaje de commit.
+1. Read AGENTS.md and docs/ESTADO.md.
+2. Inspect git status and recent commits.
+3. Propose one small feature increment that fits the available time.
+4. Identify the key concepts the user should learn.
+5. Explain the concepts briefly and state acceptance criteria.
+6. Implement the approved increment with high autonomy.
+7. Run relevant tests and fix failures.
+8. Explain changed files, decisions, and test results.
+9. Ask the user to explain or modify one small part.
+10. Update docs/ESTADO.md and propose a commit message.
 
-No afirmar que algo está terminado si no se verificó.
+Never claim completion without verification.
