@@ -11,8 +11,8 @@
 - Frontend / Backend / BD / i18n / CI: No iniciados (según calendario por etapas).
 
 ## Última sesión
-- Micro-entregable: Vinculación del repositorio remoto `JuandevAT/learning_full_stack` e instalación de herramientas base.
-- Verificación (comando y resultado): `git remote -v` configurado con `https://github.com/JuandevAT/learning_full_stack.git`.
+- Micro-entregable: Configuración del token de Google AI Studio (Gemini 2.5 Flash / Pro) en `.env` (ignorado por Git), `~/.continue/config.json` y `~/.zshrc`.
+- Verificación (comando y resultado): Consulta exitosa a la API de Google AI Studio (`models/gemini-2.5-flash`), `.env` excluido por `.gitignore` y configuración de Continue verificada.
 
 ## Próxima tarea
 - Objetivo: Sesión 1 de Etapa 0 (Configurar identidad Git, vincular token de Exercism, registrar primer commit y sincronizar con `origin main`).
